@@ -28,3 +28,10 @@ const selectH2 = document.querySelectorAll("h2");
 console.log(selectH2);
 
 console.log("--5.2");
+const selectP = document.querySelectorAll("main p, footer p");
+console.log(selectP);
+
+console.log("--6");
+selectH2.forEach((h2, texto) =>{
+    console.log(h2.innerText);
+});
